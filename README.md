@@ -72,4 +72,4 @@ Mueve el archivo a la carpeta 📂bin
 ps -a
 ```
 Mueve el archivo a la carpeta 📂bin
-
+![](
