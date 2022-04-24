@@ -5,26 +5,66 @@
 A continuación los comandos aprendidos durante el curso de Sistemas Operativos.
 
 ## Cd
-`Cd` funciona para navegar en los directorios.
+`cd` funciona para navegar en los directorios.
 ```ruby
 cd home/Desktop/Documents/Sistemas_Operativos
 ```
 Este ejemplo entraría al contenido de Sistemas_Operativos.
 ## Sudo
-`Sudo` nos da los permisos de administrador y podemos ejecutar tareas como root.
+`sudo` nos da los permisos de administrador y podemos ejecutar tareas como root.
 ```python
 sudo apt install chromius
 ```
 Este ejemplo nos descargaría el navegador 🌏Chrome.
 ## Clear 
-`Clear` o `Ctrl + l` nos ayuda a limpiar la terminal.
-```python
-sudo apt install chromius
-```
-Este ejemplo nos descargaría el navegador 🌏Chrome.
+`clear` o `Ctrl + l` nos ayuda a limpiar la terminal.
+
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(1).png)
+
 ## Su
-`Su` nos permite cambiar de usuarios y ejecutar tareas como èl.
+`su` nos permite cambiar de usuarios y ejecutar tareas como èl.
 ```python
 su - MelanieArista
 ```
-En este ejemplo entraríamos a MelanieArista.
+En este ejemplo entraríamos a 👤MelanieArista.
+
+## Ls
+`ls` lista todos los directorios y archivos y puede dar información detallada de estos.
+```ruby
+ls ~/Universidad/
+```
+Para mostrar los archivos dentro de la carpeta universidad.
+```python
+#Output
+Curso1  PresentacionFinal  Curso2   Exposicion
+```
+## Mkdir
+`mkdir` funciona para la creación de nuevos directorios.
+```ruby
+mkdir IVCuatrimestre
+```
+Nos crearía un nuevo directorio llamado 📂IVCuatrimestre.
+
+## Rmdir
+`rmdir` funciona para la eliminación de directorios.
+```ruby
+rmdir -p dir1/dir2/dir3
+```
+Elimina el directorio y sus ancestros.
+
+## Cp
+`cp` hace una copia de un archivo.
+```ruby
+cp -a presentacionfinal.pdf /home/Desktop/Ayuda/
+```
+Copia incluyendo los permisos y ajustes del archivo a la carpeta 📂Ayuda
+
+## Mv
+`mv` mueve archivos y directorios, también puede cambiar el nombre.
+```python
+mv presentacionfinal.pdf /bin/
+```
+Mueve el archivo a la carpeta 📂bin
+
+## Ps
+
