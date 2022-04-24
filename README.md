@@ -95,5 +95,7 @@ man ls
 Nos dará una descripción y lista de posibles usos.
 
 ## Whoami
+`whoami` nos indica con cuál usuario estamos loggeados. 
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(2).png)
 
-
+##
