@@ -67,4 +67,9 @@ mv presentacionfinal.pdf /bin/
 Mueve el archivo a la carpeta 📂bin
 
 ## Ps
+`ps` imprime procesos que están ejecutándose.
+```python
+ps -a
+```
+Mueve el archivo a la carpeta 📂bin
 
