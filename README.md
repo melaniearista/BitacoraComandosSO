@@ -62,14 +62,38 @@ Copia incluyendo los permisos y ajustes del archivo a la carpeta 📂Ayuda
 ## Mv
 `mv` mueve archivos y directorios, también puede cambiar el nombre.
 ```python
-mv presentacionfinal.pdf /bin/
+mv presentacionfinal.pdf /bin
 ```
 Mueve el archivo a la carpeta 📂bin
 
-## Ps
-`ps` imprime procesos que están ejecutándose.
-```python
-ps -a
+## Rm
+`rm` elimina archivos y directorios.
+```ruby
+rm universidad*
 ```
-Mueve el archivo a la carpeta 📂bin
-![](
+🗑Elimina todos los archivos que contengan la palabra universidad.
+
+## Ps
+`ps` imprime procesos que están ejecutándose, puede ir con distintas indicaciones. 
+
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon.png)
+
+Imprime todos los procesos con información detallada.
+
+## Ln
+`ln` crea enlaces para archivos o directorios.
+```ruby
+ln /home/MelanieArista/Universidad/EvidenciaTaller.mp4 hard_link_a_evidenciataller
+```
+Se crea un **hard link** con la referencia 📎*hard_link_a_evidenciataller*
+
+## Man
+`man` nos da un manual del uso de comandos.
+```ruby
+man ls
+```
+Nos dará una descripción y lista de posibles usos.
+
+## Whoami
+
+
