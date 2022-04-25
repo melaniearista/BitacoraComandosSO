@@ -73,6 +73,27 @@ rm universidad*
 ```
 🗑Elimina todos los archivos que contengan la palabra universidad.
 
+## Ipaddr
+`ipaddr` nos muestra nuestra ip.
+```ruby
+#Output
+ip: 120.20.10.10
+```
+
+## Netstat
+`netstat` nos muestra el estado de comunicación de la red de la máquina.
+```ruby
+netstat -f
+```
+Muestra conexiones activas de TCP.
+
+## Nmap
+`nmap` nos muestra información de las IPs activadas en nuestra red.
+```ruby
+nmap -h
+```
+Pedimos ayuda con nmap al utilizar este comando.
+
 ## Ps
 `ps` imprime procesos que están ejecutándose, puede ir con distintas indicaciones. 
 
@@ -86,7 +107,23 @@ Imprime todos los procesos con información detallada.
 ```python
 pkill -n firefox
 ```
-Cierra los procesos firefox creados más recientemente.
+Cierra los procesos 🌏firefox creados más recientemente.
+
+## Kill 
+`kill` *mata* un proceso.
+
+```python
+kill -9 $PID
+```
+Fuerza al proceso a terminar inmediatamente.
+
+## Bash
+`bash` funciona para ejecutar archivos de tipo .sh
+
+```ruby
+bash archivocool.txt
+```
+Va a ejecutar el 📑archivocool.txt
 
 ## Ln
 `ln` crea enlaces para archivos o directorios.
@@ -170,6 +207,22 @@ grep -i perritos inventariomascotas.txt
 ```
 Nos va a buscar en el archivo de *inventariomascotas* la palabra 🐶**perritos** sin distinguir mayúsculas ni minúsculas.
 
+## Find
+`find` nos ayuda a encontrar archivos y directorios.
+```ruby
+find . -type f -maxdepth 1 -perm 777
+
+```
+Para encontrar archivos con derechos 777.
+
+## Locate 
+`locate` nos ayuda a localizar archivos y directorios.
+```ruby
+locate perritos.txt
+
+```
+Busca el archivo 📜🐶perritos.txt
+
 ## Tree
 `tree` imprime la jerarquía del directorio y sus subdirectorios.
 ![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(3).png)
@@ -190,6 +243,27 @@ chown MelanieArista ejemplo.txt
 ```
 Cambia el ownership del archivo 📜ejemplo.txt
 
+## Df
+`df` funciona para mostrar cantidad de espacio del disco.
+```ruby
+df -h
+```
+Muestra la cantidad de disco usado.
+
+## Mount
+`mount`  montaje de dispositivos en los archivos.
+```ruby
+sudo mount -v
+```
+Muestra la versión.
+
+## Pwd
+`pwd` muestra el directorio actual.
+```ruby
+pwd
+```
+**Muestra el directorio.**
+
 ## Crontab
 `crontab` nos permite que las tareas se ejecuten a un tiempo específico.
 ```python
@@ -197,10 +271,33 @@ sudo crontab -e
 ```
 Nos permite editar los crontab.
 
+## Curl
+`curl` nos permite hacer peticiones a páginas web.
+```python
+curl -o archivo.tar.gz http://google.com/wow.tar.gz
+```
+Va a guardar el archivo como 📜archivo.tar.gz
+
+## Gitclone
+`gitclone` funciona para clonar repositorios de GitHub.
+```python
+gitclone https://github.com/melaniearista/BitacoraComandosSO/
+```
+Va a clonar el repositorio BitacoraComandosSO.
+
 ## History
 `history` imprime la lista de los últimos comandos ejecutados en la terminal.
 ![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(5).png)
 
 Veremos los comandos escritos.
 
+## Reboot
+`reboot` reinicia nuestra máquina.
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(6).png)
 
+## Tar
+`tar` manejo de archivos tar, nos ayuda a descomprimir y comprimir archivos.
+```python
+tar -cvf gatos.tar /home/Melanie/Universidad/
+```
+Comprime el archivo.
