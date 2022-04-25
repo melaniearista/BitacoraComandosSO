@@ -293,6 +293,7 @@ Veremos los comandos escritos.
 
 ## Reboot
 `reboot` reinicia nuestra máquina.
+
 ![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(6).png)
 
 ## Tar
