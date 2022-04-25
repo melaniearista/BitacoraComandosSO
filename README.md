@@ -106,35 +106,35 @@ Nos dará una descripción y lista de posibles usos.
 `whoami` nos indica con cuál usuario estamos loggeados. 
 ![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(2).png)
 
-Debe imprimir el nombre del usuario.
+Imprime el nombre del usuario.
 
 ## Useradd
 `useradd` funciona para crear usuarios.
 ```ruby
 sudo useradd -m Pepe
 ```
-Crea el usuario Pepe incluyendo el directorio home.
+Crea el usuario 👤Pepe incluyendo el directorio home.
 
 ## Touch
 `touch` crea nuevos archivos.
 ```python
 touch historialdecomandos.txt
 ```
-Crea un archivo de txt que se llama historial de comandos.
+📜Crea un archivo de txt que se llama historial de comandos.
 
 ## Vim
 `vim` es un tipo de editor de texto dentro de la terminal.
 ```ruby
 vim historialdecomandos.txt
 ```
-Nos abrirá el archivo **historialdecomandos** donde se podrá editar.
+Nos abrirá el archivo 📑**historialdecomandos** donde se podrá editar.
 
 ## Nano
 `nano` es un tipo de editor de texto dentro de la terminal.
 ```python
 nano historialdecomandos.txt
 ```
-Nos abrirá el archivo **historialdecomandos** donde se podrá editar.
+Nos abrirá el archivo 📑**historialdecomandos** donde se podrá editar.
 
 ## Pacman
 `pacman` es un package manager predeterminado para las distribuciones ArchLinux.
@@ -155,7 +155,7 @@ Va a descargar el paquete del url y asignarle el nombre *descarga1*
 ```python
 cat contrasenyassecretas.txt
 ```
-Nos va a mostrar en terminal el contenido del archivo.
+Nos va a mostrar en terminal el contenido del archivo 📜.
 ```python
 #Output
 mariano1;hola123
@@ -168,7 +168,7 @@ juan;123456
 ```ruby
 grep -i perritos inventariomascotas.txt
 ```
-Nos va a buscar en el archivo de *inventariomascotas* la palabra **perritos** sin distinguir mayúsculas ni minúsculas.
+Nos va a buscar en el archivo de *inventariomascotas* la palabra 🐶**perritos** sin distinguir mayúsculas ni minúsculas.
 
 ## Tree
 `tree` imprime la jerarquía del directorio y sus subdirectorios.
@@ -181,14 +181,14 @@ Imprimirá la jerarquía del directorio actual.
 ```ruby
 chmod 777 confidencial.txt
 ```
-Da todos los permisos para el archivo confidencial.txt
+Da todos los permisos para el archivo 📑confidencial.txt
 
 ## Chown
 `chown` funciona para cambiar el ownership de un archivo.
 ```ruby
 chown MelanieArista ejemplo.txt
 ```
-Cambia el ownership del archivo ejemplo.txt
+Cambia el ownership del archivo 📜ejemplo.txt
 
 ## Crontab
 `crontab` nos permite que las tareas se ejecuten a un tiempo específico.
@@ -199,9 +199,8 @@ Nos permite editar los crontab.
 
 ## History
 `history` imprime la lista de los últimos comandos ejecutados en la terminal.
-```python
-sudo crontab -e
-```
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(5).png)
+
 Veremos los comandos escritos.
 
 
