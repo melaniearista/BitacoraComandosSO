@@ -105,6 +105,7 @@ Nos dará una descripción y lista de posibles usos.
 ## Whoami
 `whoami` nos indica con cuál usuario estamos loggeados. 
 ![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(2).png)
+
 Debe imprimir el nombre del usuario.
 
 ## Useradd
@@ -171,7 +172,36 @@ Nos va a buscar en el archivo de *inventariomascotas* la palabra **perritos** si
 
 ## Tree
 `tree` imprime la jerarquía del directorio y sus subdirectorios.
+![](https://github.com/melaniearista/BitacoraComandosSO/blob/main/carbon%20(3).png)
+
+Imprimirá la jerarquía del directorio actual.
+
+## Chmod
+`chmod` funciona para cambiar los permisos de archivos y directorios.
 ```ruby
-tree
+chmod 777 confidencial.txt
 ```
-Nos va a buscar en el archivo de *inventariomascotas* la palabra **perritos** sin distinguir mayúsculas ni minúsculas.
+Da todos los permisos para el archivo confidencial.txt
+
+## Chown
+`chown` funciona para cambiar el ownership de un archivo.
+```ruby
+chown MelanieArista ejemplo.txt
+```
+Cambia el ownership del archivo ejemplo.txt
+
+## Crontab
+`crontab` nos permite que las tareas se ejecuten a un tiempo específico.
+```python
+sudo crontab -e
+```
+Nos permite editar los crontab.
+
+## History
+`history` imprime la lista de los últimos comandos ejecutados en la terminal.
+```python
+sudo crontab -e
+```
+Veremos los comandos escritos.
+
+
