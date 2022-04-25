@@ -159,6 +159,20 @@ touch historialdecomandos.txt
 ```
 📜Crea un archivo de txt que se llama historial de comandos.
 
+## Head
+`head` mostrar las primeras palabras de un archivo.
+```python
+head -n 100 magia.txt
+```
+Imprime las primeras 100 palabras del archivo magia.txt📜
+
+## Tail
+`head` mostrar las últimas palabras de un archivo.
+```ruby
+tail magia.txt
+```
+Imprime las últimas 10 líneas del archivo **magia.txt**
+
 ## Vim
 `vim` es un tipo de editor de texto dentro de la terminal.
 ```ruby
