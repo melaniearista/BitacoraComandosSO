@@ -2,7 +2,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/melaniearista/BitacoraComandosSO?color=magenta&label=Creado%20por%20Melanie%20Arista&style=plastic)
 
 # Bitácora de Comandos Linux
-A continuación los comandos aprendidos durante el curso de Sistemas Operativos.
+A continuación una guía de distintos comandos del sistema operativo Linux.
 
 ## Cd
 `cd` funciona para navegar en los directorios.
